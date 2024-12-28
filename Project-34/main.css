@@ -1,0 +1,18 @@
+.hot {
+    color: white;
+    background-color: fuchsia;
+}
+.cool {
+    color: white;
+    background-color: grey;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 20%;
+    
+}
+li {
+    background-color: aqua;
+    color: white;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8">
+        <title>Project-7</title>
+    </head>
+    <body>
+        <h3>volume:<span id="volume"></span></h3>
+        <h3>area:<span id="area"></span></h3>
+        <script type="text/javascript">
+            function getsize(width,height,depth) {
+             var area = width * height;
+             var volume = width * height *  depth;
+             var sizes = [area,volume];
+             return sizes; 
+            }
+ 
+            var areaOne = getsize(3,2,3)[0];
+            var volumeOne = getsize(3,2,3)[1];
+
+            var el = document.getElementById('area');
+            el.textContent = areaOne;
+            var al = document.getElementById('volume');
+            al.textContent = volumeOne;
+        </script>
+    </body>
+</html>

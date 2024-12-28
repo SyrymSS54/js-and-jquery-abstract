@@ -1,0 +1,14 @@
+var str = 'Дом милый дом';
+var message = '<h3>str:' + str + '</h3>';
+message += '<h3>Примеры:</h3>';
+message += '<h3>str.lenght' + str.length + '</h3>';
+message += '<h3>str.toUpperCase()' + str.toUpperCase() + '</h3>';
+message += '<h3>str.toLowerCase()' + str.toLowerCase() + '</h3>';
+message += '<h3>str.charAt(12)' + str.charAt(10) + '</h3>';
+message += '<h3>str.indexOf("ый")' + str.indexOf("ый") + '</h3>';
+message += '<h3>str.lastIndexOf("м")' + str.lastIndexOf("м") + '</h3>';
+message += '<h3>str.substring(5,10)' + str.substring(5,10) + '</h3>';
+message += '<h3>str.split("")' + str.split(3) + '</h3>';
+message += '<h3>str.trim()' + str.trim() + '</h3>';
+message += '<h3>str.replace("м","г")' + str.replace("м","г") + '</h3>';
+var el = document.getElementById('content').innerHTML= message;
